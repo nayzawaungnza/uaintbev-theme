@@ -1,0 +1,50 @@
+/*
+Theme Name: uaintbev
+Theme URL: www.uaintbev.com
+Author: Nay Zaw Aung
+Author URL: https://nay-react.vercel.app
+Description: This is the uaintbev Tobacco Farm and Shop theme, designed for showcasing tobacco farming processes, products, and services. Ideal for businesses in the tobacco industry, offering an elegant and functional design for both farming and retail purposes.
+Tags: tobacco, farming, business, shop, agriculture, products, lab
+License: GPL
+Version: 1.0.0
+Text Domain: uaintbev
+*/
+:root {
+  --primary-color: #ed1b24;
+}
+.elementor-element {
+    margin: 0px !important;
+    background: #00000000 !important;
+    padding: 0px !important;
+}
+.section__wrapper.natureplant__content ul {
+    padding-top: 20px;
+}
+.section__wrapper.natureplant__content ul li {
+    position: relative;
+    padding-left: 30px; /* Adjust space for the icon */
+  }
+  
+  .section__wrapper.natureplant__content ul li::before {
+    content: '\f14a'; /* Unicode for Font Awesome check-square */
+    font-family: 'Font Awesome 6 Pro'; /* Ensure Font Awesome is loaded */
+    font-weight: 900; /* Use the solid version of Font Awesome */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px; /* Adjust icon size */
+    color: var(--primary-color); /* Customize icon color */
+  }
+  
+  .blog__inner .content .text ul{
+    display: none !important;
+  }
+
+  .search-area button {
+    border: none;
+  }
+  .uaintbev-white
+  {
+    color: #fff;
+  }
